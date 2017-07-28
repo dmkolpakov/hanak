@@ -29,7 +29,15 @@ jQuery(function($) {'use strict',
 		var $portfolio = $('.portfolio-items');
 		$portfolio.isotope({
 			itemSelector : '.portfolio-item',
-			layoutMode : 'fitRows'
+			layoutMode : 'fitRows',
+			 masonry: {
+				columnWidth: '.col-md-4'
+			 }
+		});
+							  
+		$(window).smartresize(function(){
+			$portfolio.isotope({
+			});
 		});
 		
 		$portfolio_selectors.on('click', function(){
