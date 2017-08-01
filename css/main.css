@@ -12,6 +12,12 @@ body {
   line-height: 22px;
 }
 
+@media (min-width: 1310px){
+.container {
+    width: 1280px;
+}	
+}
+
 
 h1,
 h2,
@@ -2692,4 +2698,6 @@ shortcodes page css
 #news .news-item{
 	margin-right: 10px;
 }
+
+
 
