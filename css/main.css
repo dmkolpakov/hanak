@@ -12,10 +12,10 @@ body {
   line-height: 22px;
 }
 
-@media (min-width: 1310px){
-.container {
-    width: 1280px;
-}	
+@media (min-width: 1700px){
+	.container {
+		width: 1660px;
+	}	
 }
 
 
@@ -75,7 +75,8 @@ span.hanak{
 	display: inline-block;
 	position:relative;
 }
-.hanak:after{
+
+h1.hanak:after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -85,6 +86,15 @@ span.hanak{
     background: #f3c37e;
 }
 
+.hanak:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+	width:100%;
+    background: #f3c37e;
+}
 
 .btn-primary {
   padding: 8px 20px;
@@ -95,6 +105,13 @@ span.hanak{
   margin-top: 10px;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #2a2a2a;
+}
+
+.navbar-inverse .navbar-toggle :hover{
+    background: #fff;
+}
 
 .btn-primary:hover, 
 .btn-primary:focus{
@@ -654,7 +671,9 @@ p.design-desctiption{
 .backgroud-md-grey{
 	background-color: #f2f2f2;
 }
- padding: 0;
+
+.backgroud-md-yellow{
+	background-color: #f3c37e;
 }
 
 .feature-wrap {
@@ -2699,5 +2718,8 @@ shortcodes page css
 	margin-right: 10px;
 }
 
-
+.fixed-height{
+	display: inline-block;
+	line-height: 100px;
+}
 
