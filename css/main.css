@@ -29,14 +29,15 @@ h6 {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color:#2a2a2a;
   display: inline-block;
-	position:relative;
+  position:relative;
+  text-transform: none;
 }
 
 h1{
   font-size: 36px;
   color:#212121;
   font-weight: 300;
-  text-transform: uppercase
+  text-transform: capitalize;
 }
 
 h2{
@@ -64,6 +65,9 @@ a {
 
 a:hover, a:focus {
   color: #d43133;
+}
+.navbar-nav li{
+	text-transform: uppercase;
 }
 
 hr {
