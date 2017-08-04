@@ -94,6 +94,9 @@
   ul.social_icons li{
     margin-right: 0;
   }
+  .news-preview{
+	width:100%;
+}
 
 }
 
@@ -295,8 +298,16 @@
 
 }
 
+@media (min-width: 320px) and (max-width: 414px){
+.news-preview{
+	width:100%;
+}
+	
+	
+}
+
 /* XS Portrait */
-@media (max-width: 480px) {
+@media (min-width: 480px) {
 
 
 }

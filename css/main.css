@@ -2759,4 +2759,7 @@ shortcodes page css
 	display: inline-block;
 	line-height: 100px;
 }
+.news-padding{
+	padding-top:10px;
+}
 
