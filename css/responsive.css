@@ -1,3 +1,10 @@
+@media (min-width: 1700px){
+	.container {
+		width: 1660px;
+	}	
+}
+
+
 /* lg */ 
 @media (min-width: 1200px) {
  /* Make Navigation Toggle on Desktop Hover */
@@ -186,10 +193,31 @@
   .blog .blog-item .entry-meta > span a{
     font-size: 10px;
   }
+	#news .news-item{
+		clear: both;
+		min-height: 300px;
+	}
+	#news .news-preview{
+		float: left;
+		margin-right: 10px;
+		margin-top: 20px;
+		width: 50%;
+	}
+	
+	#news .news-content{
+		padding-top: 20px;
+	}
+
+    #news .row .col-md4{
+		text-align: left;
+		padding-bottom: 55px;
+		
+	}
 }
 
 /* xs */
 @media (max-width: 767px) {
+	
   .container > .navbar-header, .container > .navbar-collapse{
     margin-left: 0;
   }
@@ -294,9 +322,21 @@
   .post_reply_comments {
     padding-left: 20px;
   }
-    
-
-}
+	
+		#news .row{
+		text-align: center;
+		padding-bottom: 55px;
+	}
+	#promo-info .row{
+		text-align: center;	
+	}
+	
+	 #main-slider .carousel .slide-margin-top-right {
+			margin-top: 125px;
+			margin-right: -24px;
+			margin-left: 61px;
+			font-size: 9px;
+		}
 
 @media (min-width: 320px) and (max-width: 414px){
 .news-preview{
@@ -311,4 +351,58 @@
 
 
 }
+@media (max-width: 992px){
+
+	
+	#bottom .row{
+		text-align: center;
+	}
+	
+	#bottom .widget{
+		margin-bottom: 20px;
+	}
+	
+	h1.hanak:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+	width:100%;
+    background: #f3c37e;
+}
+
+.hanak:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+	width:100%;
+    background: #f3c37e;
+}
+	
+	.portfolio-filter > li a.active:after{
+    height: 1px;
+}
+
+.portfolio-filter > li a:after{
+    height: 1px;
+}
+
+}
+@media (max-width: 780px) {
+
+	.portfolio-filter li {
+		float: none;
+		
+		display: block;
+	}
+	.portfolio-filter li a{
+		margin: 0;
+	}
+	
+}
+
+
 
