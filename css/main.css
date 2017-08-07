@@ -628,12 +628,20 @@ i.arrow-right{
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+.designer-block-height{
+height:500px;	
+}
+
 #design-one-style-slider{
 	margin-left: -15px;
 }
 #design-one-style-slider-info{
 	margin-left: -15px;
 	height:300px;
+}
+#design-one-style-slider-des{
+	margin-left: -15px;
+	height:410px;
 }
 
 #design-one-style-slider .item {
@@ -669,6 +677,22 @@ i.arrow-right{
   -o-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
 }
+#design-one-style-slider-des .itemdes {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 410px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+}
 
 #design-one-style-slider .item:first-child {
   top: auto;
@@ -684,6 +708,14 @@ i.arrow-right{
   z-index: 1;
 }
 #design-one-style-slider-info .iteminfo.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
+}
+#design-one-style-slider-des .itemdes.active {
   opacity: 1;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
@@ -2814,4 +2846,7 @@ shortcodes page css
 	line-height: 34px;
 	color: #2a2a2a!important;
 	margin-left: 50px;
+}
+.container-padding-bottom{
+	padding-bottom:6%;
 }
