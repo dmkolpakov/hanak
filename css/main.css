@@ -2729,6 +2729,9 @@ shortcodes page css
   border-bottom: 5px solid #f3c37e;
   font-size: 14px;
 }
+#bottomfeedback {
+  font-size: 14px;
+} 
 
 #bottom h3 {
   margin-top: 0;
@@ -2766,7 +2769,18 @@ shortcodes page css
   background-color: transparent;
   border-bottom: 1px solid #a1a1a1;
 }
+#bottomfeedback .widget  input,
+#bottomfeedback .widget  textarea{
+  background-color: transparent;
+  border-bottom: 1px solid #a1a1a1;
+}
 #bottom .widget  button{
+  background-color: transparent;
+  border: 1.5px solid #ffdcb7;
+  color:#151515;
+	width: 100%;
+}
+#bottomfeedback .widget  button{
   background-color: transparent;
   border: 1.5px solid #ffdcb7;
   color:#151515;
@@ -2849,4 +2863,8 @@ shortcodes page css
 }
 .container-padding-bottom{
 	padding-bottom:6%;
+}
+.container-margin-top{
+ margin-top:10%;
+margin-bottom:8%;
 }
