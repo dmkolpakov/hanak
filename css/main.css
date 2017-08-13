@@ -809,6 +809,10 @@ p.design-desctiption{
 	margin-top: 40px;
 	padding-bottom: 20px;
 }
+.center h2{
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
 h3.hanak{
 	margin-top: 40px;
 	margin-left: 30px;
@@ -2264,8 +2268,23 @@ ul.social_icons li  a i{
 
 .form-group .form-control {
   padding: 7px 12px;
-  border-color:#f2f2f2;
   box-shadow: none;
+  border: 0;
+  border-bottom: 1px solid #a1a1a1;
+  background-color: transparent;
+  border-radius: 0;
+}
+.form-group button{
+	width: 100%;
+	background-color: transparent;
+	color:#151515;
+	border: 1.5px solid #ffdcb7;
+}
+
+.form-group button:hover{
+	background-color: transparent;
+	color:#151515;
+	border: 1.5px solid #ffdcb7;
 }
 
 textarea#message{
@@ -2887,21 +2906,22 @@ shortcodes page css
 	width: 167px;
 	height: 32px;
 }
+
 .footer-brand{
 	display: inline-block;
     margin-bottom: 30px;
 	margin-top: 10px;
 }
 
-#news .news-item{
+ .news-item{
 	margin-right: 10px;
 	
 }
-#news .news-content{
+ .news-content{
 	display: block;
 }
 
-#news .news-preview{
+ .news-preview{
 	background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2935,4 +2955,71 @@ shortcodes page css
 .container-margin-top{
  margin-top:10%;
 margin-bottom:8%;
+}
+
+
+.main-image {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: block;
+  height: 400px;
+	margin-bottom: 40px;
+}
+
+.mosaic-image{
+	margin-left: -15px;
+	height:410px;
+}
+
+.mosaic-image .itemdes.active {
+    opacity: 1;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
+}
+
+.porfolio-inside-block-height{
+	height: 410px;	
+}
+
+ .itemdes {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    height: 410px;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+}
+.designer-photo{
+	background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 209px;
+    height: 207px;
+	float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+	margin-right: 70px;
+	margin-bottom: 20px;
+}
+
+.desingner-potfolio-inside-info{
+	text-align: left;
+	margin-bottom: 20px;
+}
+#portfolio-inside-about h3{
+	font-size: 24px;
+	font-weight: 300;
 }

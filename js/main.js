@@ -44,6 +44,7 @@ jQuery(function($) {'use strict',
 		$portfolio.isotope({
 			itemSelector : '.portfolio-item',
 			layoutMode : 'fitRows',
+			filter: '.interer-v-edinom-stile',
 			 masonry: {
 				columnWidth: '.col-md-4'
 			 }
