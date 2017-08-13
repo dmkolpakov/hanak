@@ -9,8 +9,22 @@ jQuery(function($) {'use strict',
 			interval: 1400
 		});
 	});
-
-
+					
+	$('.navbar-toggle-second').on('click', function(){
+		if($(this).hasClass('unrotate')){
+			$('#menu-collapsed-right').addClass('hidden',1000);
+		$('#menu-un-collapsed-right').removeClass('hidden');
+		$(this).removeClass('unrotate');
+		$(this).addClass('rotate',1000);
+		}
+		else{
+		$('#menu-collapsed-right').removeClass('hidden');
+		$('#menu-un-collapsed-right').addClass('hidden',1000);
+			$(this).addClass('unrotate',1000);
+			$(this).removeClass('rotate');	
+		}
+	});
+					
 	// accordian
 	$('.accordion-toggle').on('click', function(){
 		$(this).closest('.panel-group').children().each(function(){

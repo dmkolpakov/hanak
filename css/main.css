@@ -336,6 +336,63 @@ input.search-form:hover {
  }
 .navbar-collapse {
 	text-align: center;
+	float: left;
+}
+
+.collapse-second{
+	float: left;
+}
+.navbar-toggle-second .icon-bar+.icon-bar {
+    margin-top: 6px;
+}
+
+#menu-collapsed-right{
+	    margin-right: -50px;
+}
+
+.navbar-toggle-second .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+	background-color: #2a2a2a;
+	color: #2a2a2a;
+	cursor: pointer;
+}
+
+.navbar-toggle-second.rotate .icon-bar {
+	width: 2px;
+	height: 20px;
+	padding: 1px;
+}
+.navbar-toggle-second.rotate .icon-bar+.icon-bar {
+    margin-top: -20px;
+    margin-left: 12px;
+	margin-right: 12px;
+}
+
+.navbar-toggle-second.rotate .icon-bar:last-child{
+	margin-left: 24px;
+}
+
+.navbar-toggle-second.rotate{
+	padding-top: 6px;
+	padding-bottom: 2px;
+}
+
+.navbar-toggle-second {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	margin-right: -9px;
+
 }
 
 .navbar-nav>li{
