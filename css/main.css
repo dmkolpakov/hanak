@@ -302,6 +302,17 @@ input.search-form{
   -ms-transition: all 400ms;
   -o-transition: all 400ms;
   transition: all 400ms;
+		 border-color: none!important;
+	box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	 outline: -webkit-focus-ring-color auto 0px!important;
+}
+
+button{
+	 border-color: none!important;
+	box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+	 outline: -webkit-focus-ring-color auto 0px!important;
 }
 
 input.search-form::-webkit-input-placeholder{
