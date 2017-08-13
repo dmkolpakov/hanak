@@ -292,27 +292,27 @@ ul.social-share li a:hover {
 }
 
 input.search-form{
-  background: transparent;
-  border: 0 none;
-  width: 60px;
-  padding: 0 10px;
-  color: #000;
-  -webkit-transition: all 400ms;
-  -moz-transition: all 400ms;
-  -ms-transition: all 400ms;
-  -o-transition: all 400ms;
-  transition: all 400ms;
-		 border-color: none!important;
+	background: transparent;
+	border: 0 none;
+	width: 60px;
+	padding: 0 10px;
+	color: #000;
+	-webkit-transition: all 400ms;
+	-moz-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	transition: all 400ms;
+	border-color: none!important;
 	box-shadow: none!important;
 	-webkit-box-shadow: none!important;
-	 outline: -webkit-focus-ring-color auto 0px!important;
+	outline: -webkit-focus-ring-color auto 0px!important;
 }
 
 button{
-	 border-color: none!important;
+	border-color: none!important;
 	box-shadow: none!important;
 	-webkit-box-shadow: none!important;
-	 outline: -webkit-focus-ring-color auto 0px!important;
+	outline: -webkit-focus-ring-color auto 0px!important;
 }
 
 input.search-form::-webkit-input-placeholder{
@@ -325,7 +325,7 @@ input.search-form:hover::-webkit-input-placeholder {
 
 input.search-form:hover {
   width: 180px;
-	border: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 .navbar-brand {

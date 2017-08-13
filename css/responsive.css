@@ -121,6 +121,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+	
 
   .navbar-nav > li {
     margin-left: 0;
@@ -221,6 +222,10 @@
   .container > .navbar-header, .container > .navbar-collapse{
     margin-left: 0;
   }
+	.navbar-inverse .navbar-collapse{
+		margin-left: 40%;
+}
+
 
   .top-number{
     font-size: 14px;
