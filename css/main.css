@@ -3023,3 +3023,21 @@ margin-bottom:8%;
 	font-size: 24px;
 	font-weight: 300;
 }
+
+.portfolio-filter > li label.active:after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+	margin-left:1px;
+    margin-top: 25px;
+    width: 100%;
+    background: #f3c37e;
+}
+
+.portfolio-filter  > li  input{
+  visibility: hidden;
+  width:0px;
+  height:0px;
+}

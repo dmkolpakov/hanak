@@ -93,4 +93,13 @@ jQuery(function($) {'use strict',
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});	
+					
+	$('#filter-catalog-msearch2 li label').on('click', function(){
+		$('#filter-catalog-msearch2 li label').removeClass('active');
+		$(this).addClass('active');
+	});
+
+	$('#filter-catalog-msearch2-reset').on('click', function(){
+		window.location.replace(location.pathname);
+	});
 });
