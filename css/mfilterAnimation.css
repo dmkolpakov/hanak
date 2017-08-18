@@ -1,0 +1,73 @@
+@-webkit-keyframes FadeIn {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1) translate3d(1px, 0, 0);
+		transform: scale(1) translate3d(1px, 0, 0);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(.8) translate3d(0, 0, 0);
+		transform: scale(.8) translate3d(0, 0, 0);
+	}
+}
+@keyframes FadeIn {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1) translate3d(1px, 0, 0);
+		transform: scale(1) translate3d(1px, 0, 0);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(.8) translate3d(0, 0, 0);
+		transform: scale(.8) translate3d(0, 0, 0);
+	}
+}
+@-webkit-keyframes FadeOut {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.8) translate3d(1px, 0, 0);
+		transform: scale(.8) translate3d(1px, 0, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1) translate3d(0, 0, 0);
+		transform: scale(1) translate3d(0, 0, 0);
+	}
+}
+@keyframes FadeOut {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.8) translate3d(1px, 0, 0);
+		transform: scale(.8) translate3d(1px, 0, 0);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1) translate3d(0, 0, 0);
+		transform: scale(1) translate3d(0, 0, 0);
+	}
+}
+
+
+#mse2_results.fade-in > .item {
+	-webkit-animation: FadeIn cubic-bezier(.55, .08, .06, .97) .5s;
+	animation: FadeIn cubic-bezier(.55, .08, .06, .97) .5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-transform-origin: center top;
+	-ms-transform-origin: center top;
+	transform-origin: center top;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+#mse2_results.rows.fade-out > .item {
+	-webkit-animation: FadeOut cubic-bezier(.55, .08, .06, .97) .5s;
+	animation: FadeOut cubic-bezier(.55, .08, .06, .97) .5s;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-transform-origin: center top;
+	-ms-transform-origin: center top;
+	transform-origin: center top;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	visibility: visible !important;
+}
