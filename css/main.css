@@ -97,8 +97,8 @@ h1.hanak:after{
 .btn-primary {
   padding: 8px 20px;
   background: #f3c37e;
-  color: #fff;
-  border-radius: 4px;
+  color: #151515!important;
+  border-radius: 0px;
   border:none;
   margin-top: 10px;
 }
@@ -169,7 +169,7 @@ a:focus {
   margin-left: 20px;
 }
 
-body > section {
+ section {
   padding: 30px 0;
 }
 
@@ -2386,7 +2386,6 @@ textarea#message{
 
 .blog_archieve li {
   padding: 10px 0;
-  border-bottom: 1px solid #f5f5f5;
 }
 
 .blog_archieve li:first-child {
@@ -2466,8 +2465,8 @@ ul.faq li > div h3 {
 }
 
 .blog .blog-item .img-blog {
-  border-radius: 5px;
-  margin-bottom: 45px;
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
 
 .blog .blog-item .blog-content {
@@ -3260,8 +3259,60 @@ i.arrow-right{
     background-color: #fff;
     margin: 0 15px 0 0;
 	border-radius: 10px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     position: relative;
 	margin-right: 5px;
 	display: inline-block;
+}
+.product_description{
+	 margin-left: 40px;
+}
+
+.characteristics-details{
+	border: 1px solid #ffcb95;
+	padding: 40px;
+}
+
+.characteristics-details table{
+	font-size:16px;
+}
+.characteristics-details table td{
+	line-height: 20px;
+	height: 40px;
+	padding-right: 80px;
+}
+.text-increase{
+	font-size: 18px;
+}
+.form-price label{
+	line-height: 29px;
+}
+
+.custom-upload-file > input[type="file"] {
+    display: none;
+}
+
+.custom-upload-file {
+    display: inline-block;
+    padding: 5px 55px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #151515;
+    border: 1.5px solid #ffdcb7;
+    margin-top: 10px;
+}
+
+.yellow-button{
+	background: #f3c37e!important;
+	color: #151515!important;
+}
+
+.readmore:after{
+	 content: '';
+    height: 2px;
+    position: absolute;
+    left: 0;
+    width: 92px;
+	margin-top: 25px;
+    background: #f3c37e;
 }
